@@ -46,7 +46,8 @@ let fullName = `${me.firstName}  ${me.lastName}`;
 */
   // Current shoe count
   console.log(`Current Shoes: ${me.shoeCount}`);
-  me.shoeCount += 1;
+  // Add new one or add one more
+   me.shoeCount += 1;
   console.log(`Updated Shoes: ${me.shoeCount}`);
 
 /* 5. Add a new property to an existing object.
@@ -55,3 +56,6 @@ let fullName = `${me.firstName}  ${me.lastName}`;
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+// Make new val in the Object
+  me.favoriteColor = 'Blue';
+   console.log(me);
