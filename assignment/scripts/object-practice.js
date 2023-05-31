@@ -44,7 +44,10 @@ let fullName = `${me.firstName}  ${me.lastName}`;
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+  // Current shoe count
+  console.log(`Current Shoes: ${me.shoeCount}`);
+  me.shoeCount += 1;
+  console.log(`Updated Shoes: ${me.shoeCount}`);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
